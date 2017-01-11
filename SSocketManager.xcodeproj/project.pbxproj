@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88EFCDE3D8EE5668D6623351 /* libPods-SSocketManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D1FEC0C97AF981368D2D33 /* libPods-SSocketManager.a */; };
+		D45F29F21E25CC0B007E2B32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D45F29F11E25CC0B007E2B32 /* main.m */; };
+		D45F29F51E25CC0B007E2B32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D45F29F41E25CC0B007E2B32 /* AppDelegate.m */; };
+		D45F29F81E25CC0B007E2B32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45F29F71E25CC0B007E2B32 /* ViewController.m */; };
+		D45F29FB1E25CC0B007E2B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45F29F91E25CC0B007E2B32 /* Main.storyboard */; };
+		D45F29FD1E25CC0B007E2B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45F29FC1E25CC0B007E2B32 /* Assets.xcassets */; };
+		D45F2A001E25CC0B007E2B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45F29FE1E25CC0B007E2B32 /* LaunchScreen.storyboard */; };
+		D45F2A0A1E25CC8F007E2B32 /* SSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D45F2A091E25CC8F007E2B32 /* SSocketManager.m */; };
+		D45F2A0D1E25D56C007E2B32 /* SCocoaAsyncSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D45F2A0C1E25D56C007E2B32 /* SCocoaAsyncSocketManager.m */; };
+		D45F2A101E25E0CD007E2B32 /* SSocketRocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D45F2A0F1E25E0CD007E2B32 /* SSocketRocketManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9CD1F1FA2E62D384F9A87B1 /* Pods-SSocketManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSocketManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSocketManager/Pods-SSocketManager.debug.xcconfig"; sourceTree = "<group>"; };
+		D45F29ED1E25CC0B007E2B32 /* SSocketManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSocketManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45F29F11E25CC0B007E2B32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D45F29F31E25CC0B007E2B32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D45F29F41E25CC0B007E2B32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D45F29F61E25CC0B007E2B32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D45F29F71E25CC0B007E2B32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D45F29FA1E25CC0B007E2B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D45F29FC1E25CC0B007E2B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D45F29FF1E25CC0B007E2B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D45F2A011E25CC0B007E2B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45F2A081E25CC8F007E2B32 /* SSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSocketManager.h; sourceTree = "<group>"; };
+		D45F2A091E25CC8F007E2B32 /* SSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSocketManager.m; sourceTree = "<group>"; };
+		D45F2A0B1E25D56C007E2B32 /* SCocoaAsyncSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCocoaAsyncSocketManager.h; sourceTree = "<group>"; };
+		D45F2A0C1E25D56C007E2B32 /* SCocoaAsyncSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCocoaAsyncSocketManager.m; sourceTree = "<group>"; };
+		D45F2A0E1E25E0CD007E2B32 /* SSocketRocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSocketRocketManager.h; sourceTree = "<group>"; };
+		D45F2A0F1E25E0CD007E2B32 /* SSocketRocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSocketRocketManager.m; sourceTree = "<group>"; };
+		E42C43DF8E0C36F5765E253B /* Pods-SSocketManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSocketManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSocketManager/Pods-SSocketManager.release.xcconfig"; sourceTree = "<group>"; };
+		E8D1FEC0C97AF981368D2D33 /* libPods-SSocketManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SSocketManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D45F29EA1E25CC0B007E2B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EFCDE3D8EE5668D6623351 /* libPods-SSocketManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		688A24B3ADF2713F3AB4B1DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8D1FEC0C97AF981368D2D33 /* libPods-SSocketManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D45F29E41E25CC0B007E2B32 = {
+			isa = PBXGroup;
+			children = (
+				D45F29EF1E25CC0B007E2B32 /* SSocketManager */,
+				D45F29EE1E25CC0B007E2B32 /* Products */,
+				E1F35C6C0C07FD7E9991A2D3 /* Pods */,
+				688A24B3ADF2713F3AB4B1DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D45F29EE1E25CC0B007E2B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D45F29ED1E25CC0B007E2B32 /* SSocketManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D45F29EF1E25CC0B007E2B32 /* SSocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				D45F2A071E25CC54007E2B32 /* SSocketManager */,
+				D45F29F31E25CC0B007E2B32 /* AppDelegate.h */,
+				D45F29F41E25CC0B007E2B32 /* AppDelegate.m */,
+				D45F29F61E25CC0B007E2B32 /* ViewController.h */,
+				D45F29F71E25CC0B007E2B32 /* ViewController.m */,
+				D45F29F91E25CC0B007E2B32 /* Main.storyboard */,
+				D45F29FC1E25CC0B007E2B32 /* Assets.xcassets */,
+				D45F29FE1E25CC0B007E2B32 /* LaunchScreen.storyboard */,
+				D45F2A011E25CC0B007E2B32 /* Info.plist */,
+				D45F29F01E25CC0B007E2B32 /* Supporting Files */,
+			);
+			path = SSocketManager;
+			sourceTree = "<group>";
+		};
+		D45F29F01E25CC0B007E2B32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D45F29F11E25CC0B007E2B32 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D45F2A071E25CC54007E2B32 /* SSocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				D45F2A081E25CC8F007E2B32 /* SSocketManager.h */,
+				D45F2A091E25CC8F007E2B32 /* SSocketManager.m */,
+				D45F2A0B1E25D56C007E2B32 /* SCocoaAsyncSocketManager.h */,
+				D45F2A0C1E25D56C007E2B32 /* SCocoaAsyncSocketManager.m */,
+				D45F2A0E1E25E0CD007E2B32 /* SSocketRocketManager.h */,
+				D45F2A0F1E25E0CD007E2B32 /* SSocketRocketManager.m */,
+			);
+			path = SSocketManager;
+			sourceTree = "<group>";
+		};
+		E1F35C6C0C07FD7E9991A2D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9CD1F1FA2E62D384F9A87B1 /* Pods-SSocketManager.debug.xcconfig */,
+				E42C43DF8E0C36F5765E253B /* Pods-SSocketManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D45F29EC1E25CC0B007E2B32 /* SSocketManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45F2A041E25CC0B007E2B32 /* Build configuration list for PBXNativeTarget "SSocketManager" */;
+			buildPhases = (
+				1CB3AEB82E36D109FA8D47A0 /* [CP] Check Pods Manifest.lock */,
+				D45F29E91E25CC0B007E2B32 /* Sources */,
+				D45F29EA1E25CC0B007E2B32 /* Frameworks */,
+				D45F29EB1E25CC0B007E2B32 /* Resources */,
+				D9855EB980648D03FFEEA222 /* [CP] Embed Pods Frameworks */,
+				D3C114696143FE665542E104 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSocketManager;
+			productName = SSocketManager;
+			productReference = D45F29ED1E25CC0B007E2B32 /* SSocketManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D45F29E51E25CC0B007E2B32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tongxuan;
+				TargetAttributes = {
+					D45F29EC1E25CC0B007E2B32 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D45F29E81E25CC0B007E2B32 /* Build configuration list for PBXProject "SSocketManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D45F29E41E25CC0B007E2B32;
+			productRefGroup = D45F29EE1E25CC0B007E2B32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D45F29EC1E25CC0B007E2B32 /* SSocketManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D45F29EB1E25CC0B007E2B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45F2A001E25CC0B007E2B32 /* LaunchScreen.storyboard in Resources */,
+				D45F29FD1E25CC0B007E2B32 /* Assets.xcassets in Resources */,
+				D45F29FB1E25CC0B007E2B32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CB3AEB82E36D109FA8D47A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C114696143FE665542E104 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SSocketManager/Pods-SSocketManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9855EB980648D03FFEEA222 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SSocketManager/Pods-SSocketManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D45F29E91E25CC0B007E2B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45F29F81E25CC0B007E2B32 /* ViewController.m in Sources */,
+				D45F29F51E25CC0B007E2B32 /* AppDelegate.m in Sources */,
+				D45F2A101E25E0CD007E2B32 /* SSocketRocketManager.m in Sources */,
+				D45F2A0A1E25CC8F007E2B32 /* SSocketManager.m in Sources */,
+				D45F2A0D1E25D56C007E2B32 /* SCocoaAsyncSocketManager.m in Sources */,
+				D45F29F21E25CC0B007E2B32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D45F29F91E25CC0B007E2B32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45F29FA1E25CC0B007E2B32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D45F29FE1E25CC0B007E2B32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45F29FF1E25CC0B007E2B32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D45F2A021E25CC0B007E2B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D45F2A031E25CC0B007E2B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D45F2A051E25CC0B007E2B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9CD1F1FA2E62D384F9A87B1 /* Pods-SSocketManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSocketManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tongxuan.SSocketManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D45F2A061E25CC0B007E2B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42C43DF8E0C36F5765E253B /* Pods-SSocketManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSocketManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tongxuan.SSocketManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D45F29E81E25CC0B007E2B32 /* Build configuration list for PBXProject "SSocketManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45F2A021E25CC0B007E2B32 /* Debug */,
+				D45F2A031E25CC0B007E2B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45F2A041E25CC0B007E2B32 /* Build configuration list for PBXNativeTarget "SSocketManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45F2A051E25CC0B007E2B32 /* Debug */,
+				D45F2A061E25CC0B007E2B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D45F29E51E25CC0B007E2B32 /* Project object */;
+}
