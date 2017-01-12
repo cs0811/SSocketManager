@@ -10,6 +10,7 @@
 #import "Masonry.h"
 #import "SSocketManager.h"
 #import "SCocoaAsyncSocketManager.h"
+#import "SSocketRocketManager.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) UITextField * tf;
@@ -54,17 +55,20 @@
 #pragma mark - Action
 - (void)sendMsg {
 //    [[SSocketManager share] sendMsg:_tf.text?:@"test"];
-    [[SCocoaAsyncSocketManager share] sendMsg:_tf.text];
+//    [[SCocoaAsyncSocketManager share] sendMsg:_tf.text];
+    [[SSocketRocketManager share] sendMsg:_tf.text];
 }
 
 - (void)connectClick {
 //    [[SSocketManager share] connect];
-    [[SCocoaAsyncSocketManager share] connect];
+//    [[SCocoaAsyncSocketManager share] connect];
+    [[SSocketRocketManager share] connect];
 }
 
 - (void)disConnectClick {
 //    [[SSocketManager share] disConnect];
-    [[SCocoaAsyncSocketManager share] disConnect];
+//    [[SCocoaAsyncSocketManager share] disConnect];
+    [[SSocketRocketManager share] disConnect];
 }
 
 

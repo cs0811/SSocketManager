@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		88EFCDE3D8EE5668D6623351 /* libPods-SSocketManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D1FEC0C97AF981368D2D33 /* libPods-SSocketManager.a */; };
+		D44F82CE1E27557000A7E3A7 /* SMQTTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D44F82CD1E27557000A7E3A7 /* SMQTTManager.m */; };
 		D45F29F21E25CC0B007E2B32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D45F29F11E25CC0B007E2B32 /* main.m */; };
 		D45F29F51E25CC0B007E2B32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D45F29F41E25CC0B007E2B32 /* AppDelegate.m */; };
 		D45F29F81E25CC0B007E2B32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45F29F71E25CC0B007E2B32 /* ViewController.m */; };
@@ -21,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		C9CD1F1FA2E62D384F9A87B1 /* Pods-SSocketManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSocketManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSocketManager/Pods-SSocketManager.debug.xcconfig"; sourceTree = "<group>"; };
+		D44F82CC1E27557000A7E3A7 /* SMQTTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMQTTManager.h; sourceTree = "<group>"; };
+		D44F82CD1E27557000A7E3A7 /* SMQTTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMQTTManager.m; sourceTree = "<group>"; };
 		D45F29ED1E25CC0B007E2B32 /* SSocketManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSocketManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45F29F11E25CC0B007E2B32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D45F29F31E25CC0B007E2B32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				D45F2A0C1E25D56C007E2B32 /* SCocoaAsyncSocketManager.m */,
 				D45F2A0E1E25E0CD007E2B32 /* SSocketRocketManager.h */,
 				D45F2A0F1E25E0CD007E2B32 /* SSocketRocketManager.m */,
+				D44F82CC1E27557000A7E3A7 /* SMQTTManager.h */,
+				D44F82CD1E27557000A7E3A7 /* SMQTTManager.m */,
 			);
 			path = SSocketManager;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D45F29F81E25CC0B007E2B32 /* ViewController.m in Sources */,
+				D44F82CE1E27557000A7E3A7 /* SMQTTManager.m in Sources */,
 				D45F29F51E25CC0B007E2B32 /* AppDelegate.m in Sources */,
 				D45F2A101E25E0CD007E2B32 /* SSocketRocketManager.m in Sources */,
 				D45F2A0A1E25CC8F007E2B32 /* SSocketManager.m in Sources */,

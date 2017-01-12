@@ -8,10 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-typedef enum : NSUInteger {
-    disConnectByUser ,
-    disConnectByServer,
-} DisConnectType;
+typedef NS_ENUM(NSUInteger, DisConnectType) {
+    DisConnectByUser = 1000,
+    DisConnectByServer ,
+};
+
 
 @interface SSocketRocketManager : NSObject
 

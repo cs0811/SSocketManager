@@ -10,4 +10,6 @@ pod 'CocoaAsyncSocket'
 
 pod 'SocketRocket'
 
+pod 'MQTTKit'
+
 end

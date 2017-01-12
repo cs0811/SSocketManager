@@ -58,7 +58,6 @@ static const uint16_t Kport = 50284;
     //连接
     [webSocket open];
 
-    
 }
 
 //初始化心跳
@@ -149,6 +148,9 @@ static const uint16_t Kport = 50284;
 //pingPong
 - (void)ping {
 
+    if (webSocket.readyState != SR_OPEN) {
+        return;
+    }
     [webSocket sendPing:nil];
 }
 
@@ -186,7 +188,7 @@ static const uint16_t Kport = 50284;
     NSLog(@"被关闭连接，code:%ld,reason:%@,wasClean:%d",code,reason,wasClean);
     
     //如果是被用户自己中断的那么直接断开连接，否则开始重连
-    if (code == disConnectByUser) {
+    if (code == DisConnectByUser) {
         [self disConnect];
     }else{
         [self reConnect];
